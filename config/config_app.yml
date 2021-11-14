@@ -1,0 +1,22 @@
+PRO_APP_DES:
+  appium_port: 4723
+  desired_caps:  # setup1：准备工作
+    automationName: UIAutomator2  # automation版本  # 为了支持 toast提取文本
+    platformName:  Android  # 平台类型
+    platformVersion: 7.1.2  # 平台版本号
+#    deviceName: Android Emulator  # 设备名称
+    deviceName: Android Emulator  # 设备名称
+    noReset: true  # 不要重置应用数据（清缓存和重置权限）
+    appPackage: com.ss.android.ugc.aweme  # aapt dump badging apk应用名
+    appActivity: com.ss.android.ugc.aweme.splash.SplashActivity  # app入口 activity  # launchable-activity: name=。。。。
+
+TEST_APP_DES:
+  appium_port: 4723
+  desired_caps:  # setup1：准备工作
+    automationName: UIAutomator2  # automation版本  # 为了支持 toast提取文本
+    platformName:  Android  # 平台类型
+    platformVersion: 7.1.2  # 平台版本号
+    deviceName: Android Emulator  # 设备名称
+    noReset: true  # 不要重置应用数据（清缓存和重置权限）
+    appPackage: com.cisdi.building.test  # aapt dump badging apk应用名
+    appActivity: com.cisdi.building.activity.SplashActivity  # app入口 activity  # launchable-activity: name=。。。。

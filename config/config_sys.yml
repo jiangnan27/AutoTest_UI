@@ -1,0 +1,8 @@
+logger:
+  all_level: "DEBUG"
+  stream_level: "INFO"
+  file_level: "INFO"
+#  all_format: "[%(asctime)s] %(levelname)s [%(filename)s, %(lineno)d] %(message)s"
+  all_format: "[%(levelname)s] %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+  log_file:

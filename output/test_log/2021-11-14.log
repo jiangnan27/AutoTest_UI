@@ -1,0 +1,866 @@
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 强制等待：3秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1200, 'height': 1600}
+[ERROR] 屏幕滑动(上)。
+[ERROR] 屏幕滑动(上) --> 失败：Message: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.InvalidElementStateException: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+	at io.appium.uiautomator2.handler.W3CActions.safeHandle(W3CActions.java:84)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:761)
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] 浏览器 --> 退出
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 强制等待：3秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上)。
+[ERROR] 屏幕滑动(上) --> 失败：Message: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.InvalidElementStateException: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+	at io.appium.uiautomator2.handler.W3CActions.safeHandle(W3CActions.java:84)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:761)
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] driver --> 退出
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] driver --> 退出
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[INFO] 强制等待：5秒
+[INFO] 获取屏幕尺寸:
+[INFO] 
+屏幕的尺寸：{'width': 1080, 'height': 1920}
+[ERROR] 屏幕滑动(上): (540.0, 1344.0) -> (540.0, 384.0)
+[ERROR] 屏幕滑动(上) --> 失败：Message: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.InvalidElementStateException: Unable to perform W3C actions. Check the logcat output for possible error reports and make sure your input actions chain is valid.
+	at io.appium.uiautomator2.handler.W3CActions.safeHandle(W3CActions.java:84)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:761)
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开 www.atp.cool 网址进行测试
+[ERROR] 打开网址 --> 失败：www.atp.cool
+[INFO] 打开web浏览器。
+[INFO] 打开 http://www.atp.cool 网址进行测试
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin2134"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123-+657"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[ERROR] locator格式错误。正确案例：(定位方式, 元素内容)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开 http://www.atp.cool 网址进行测试
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin2134"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 
+耗时：Nones/15s
+[ERROR] 
+失败：Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123-+657"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[ERROR] locator格式错误。正确案例：(定位方式, 元素内容)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开 http://www.atp.cool 网址进行测试
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin2134"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123-+657"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[ERROR] locator格式错误。正确案例：(定位方式, 元素内容)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开 http://www.atp.cool 网址进行测试
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容：""
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin2134"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin"
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 清空文本框
+[INFO] 定位元素: ('xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 输入内容："admin123-+657"
+[INFO] 定位元素: ('class name', 'el-button--primary')
+[INFO] 
+耗时：0s/15s
+[INFO] 
+成功 -> 共 1 个元素。
+[INFO] 点击元素
+[ERROR] locator格式错误。正确案例：(定位方式, 元素内容)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
