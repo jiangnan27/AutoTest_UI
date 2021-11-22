@@ -62,16 +62,16 @@ class UIBasePages:
             result = WebDriverWait(self.driver, timeout).until(ec.presence_of_all_elements_located(locator))
             end = datetime.datetime.now()
             count_time = (end - start).seconds
-            log.info('\n耗时：{}s/{}s'.format(count_time, timeout))
+            log.info('\t耗时：{}s/{}s'.format(count_time, timeout))
             len_result = len(result)
-            log.info('\n成功 -> 共 %s 个元素。' % len_result)
+            log.info('\t成功 -> 共 %s 个元素。' % len_result)
             if len_result == 1:
                 return result[0]
             elif len_result > 1:
                 return result
         except Exception as e:
-            log.info('\n耗时：{}s/{}s'.format(count_time, timeout))
-            log.error('\n失败：%s' % e)
+            log.info('\t耗时：{}s/{}s'.format(count_time, timeout))
+            log.error('\t失败：%s' % e)
             assert False
 
     @staticmethod
@@ -255,31 +255,31 @@ class UIBasePages:
                 for i in ele:
                     attr_value = i.get_attribute(attribute)
                     result.append(attr_value)
-            log.info('\n获取到的值：{}'.format(result))
+            log.info('\t获取到的值：{}'.format(result))
             return result
         except Exception as e:
             log.error('获取失败：{}'.format(e))
             assert False
 
     # @staticmethod
-    # def upload_file(browser, filepath):
+    # def upload_file(driver, filepath):
     #     """非input标签文件上传"""
     #     try:
     #         log.info('上传文件：{}'.format(filepath))
     #         # 窗口title
-    #         browser_type = {
+    #         driver_type = {
     #             "firefox": "文件上传",
     #             "chrome": "打开",
     #             "ie": "选择要加载的文件"
     #         }
     #         # 提升容错性
-    #         if browser.lower() not in browser_type.keys():
-    #             browser1 = "chrome"
+    #         if driver.lower() not in driver_type.keys():
+    #             driver1 = "chrome"
     #         else:
-    #             browser1 = browser
+    #             driver1 = driver
     #         # 正式的操作
     #         time.sleep(2)
-    #         dialog = win32gui.FindWindow("#32770", browser_type[browser1])  # 一级窗口
+    #         dialog = win32gui.FindWindow("#32770", driver_type[driver1])  # 一级窗口
     #         combobox_ex32 = win32gui.FindWindowEx(dialog, 0, "ComboBoxEx32", None)  # 二级窗口
     #         combobox = win32gui.FindWindowEx(combobox_ex32, 0, 'ComboBox', None)  # 三级窗口
     #         edit = win32gui.FindWindowEx(combobox, 0, 'Edit', None)  # 四级窗口  -->  路径输入框
@@ -448,7 +448,7 @@ class APPBasePage(UIBasePages):
         try:
             log.info('获取 toast提示框 的 text。')
             result = ele.text
-            log.info('\n获取到的值：{}'.format(result))
+            log.info('\t获取到的值：{}'.format(result))
             return result
         except Exception as e:
             log.error('获取 toast提示框 的 text --> 失败：{}'.format(e))
@@ -458,14 +458,14 @@ class APPBasePage(UIBasePages):
         """获取元素坐标"""
         log.info('获取元素坐标：{}'.format(locator))
         element_location = self.find_ele(locator).location
-        log.info('\n获取到的坐标：{}'.format(element_location))
+        log.info('\t获取到的坐标：{}'.format(element_location))
         return element_location
 
     def get_screen_size(self):
         """获取屏幕尺寸"""
         log.info('获取屏幕尺寸:')
         screen_size = self.driver.get_window_size()
-        log.info('\n屏幕的尺寸：{}'.format(screen_size))
+        log.info('\t屏幕的尺寸：{}'.format(screen_size))
         return screen_size
 
     def swipe_for(self, direction: str, duration=500):
@@ -521,14 +521,14 @@ class APPBasePage(UIBasePages):
         """获取所有上下文"""
         log.info('获取所有上下文')
         context_list = self.driver.contexts
-        log.info('\n所有上下文：{}'.format(context_list))
+        log.info('\t所有上下文：{}'.format(context_list))
         return context_list
 
     def get_current_context(self):
         """获取现在所在的上下文"""
         log.info('获取现在所在的上下文')
         current_context = self.driver.current_context
-        log.info('\n现在所在的上下文是：{}'.format(current_context))
+        log.info('\t现在所在的上下文是：{}'.format(current_context))
         return current_context
 
     def switch_context(self, context):
@@ -561,6 +561,6 @@ class APPBasePage(UIBasePages):
         touch.long_press(x=pixel_list[0][0], y=pixel_list[0][1])
         time.sleep(1)  # 代码的执行为毫秒级，APP的反应没那么快，所以这里要等待，不然多半是按不上的
         for i in range(1, len(pixel_list)):
-            log.info('\n连接：({}, {})'.format(pixel_list[i][0], pixel_list[i][1]))
+            log.info('\t连接：({}, {})'.format(pixel_list[i][0], pixel_list[i][1]))
             touch.move_to(x=pixel_list[i][0], y=pixel_list[i][1]).wait(1)
         touch.release().perform()
