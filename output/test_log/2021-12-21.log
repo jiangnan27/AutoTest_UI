@@ -1,0 +1,2144 @@
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 17ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: ""
+[ERROR] 输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[ERROR] 	耗时: Nonems/15ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 10ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin123"
+[ERROR] 输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 12ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[ERROR] 	耗时: Nonems/15ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[ERROR] 	耗时: Nonems/15ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[ERROR] 	耗时: Nonems/15ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 12700ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 10ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin2134"
+[ERROR] 输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[ERROR] 	耗时: Nonems/15ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 9ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin"
+[ERROR] 输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[ERROR] 清空文本框 --> 失败: 
+[INFO] 输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15ms -> 共 1 个元素。
+[INFO] 点击元素
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: ""
+[ERROR] 	输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[ERROR] 	耗时: Nonems/15000ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin123"
+[ERROR] 	输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin2134"
+[ERROR] 	输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[ERROR] 	耗时: Nonems/15000ms -> 共 1 个元素。
+[ERROR] 	Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin"
+[ERROR] 	输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	清空文本框
+[INFO] 	输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 	耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 	点击元素
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[ERROR] 		输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[ERROR] 		输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin2134"
+[ERROR] 		输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[ERROR] 		耗时: Nonems/15000ms -> 共 1 个元素。
+[ERROR] 		Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin"
+[ERROR] 		输入内容 --> 失败: Message: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01087C53+1473619]
+	Ordinal0 [0x0100AD71+961905]
+	Ordinal0 [0x00F9415C+475484]
+	Ordinal0 [0x00F339D4+80340]
+	Ordinal0 [0x00F4758D+161165]
+	Ordinal0 [0x00F32626+75302]
+	Ordinal0 [0x00F477A1+161697]
+	Ordinal0 [0x00F4E7AB+190379]
+	Ordinal0 [0x00F4742B+160811]
+	Ordinal0 [0x00F30AE6+68326]
+	Ordinal0 [0x00F31BF0+72688]
+	Ordinal0 [0x00F31B89+72585]
+	Ordinal0 [0x01024B37+1067831]
+	GetHandleVerifier [0x01126845+506677]
+	GetHandleVerifier [0x011265E0+506064]
+	GetHandleVerifier [0x0112D188+533624]
+	GetHandleVerifier [0x0112701A+508682]
+	Ordinal0 [0x0101C226+1032742]
+	Ordinal0 [0x0101C09F+1032351]
+	Ordinal0 [0x01026A4B+1075787]
+	Ordinal0 [0x01026BB3+1076147]
+	Ordinal0 [0x01025B65+1071973]
+	BaseThreadInitThunk [0x75A06359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E57C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E57BF4+180]
+
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[ERROR] 		耗时: 15242ms/15000ms -> 共 1 个元素。
+[ERROR] 		Message: 
+
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误。正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[ERROR] 	耗时: 15237ms/15000ms -> 共 0 个元素。
+[ERROR] 	Message: 
+
+[INFO] 截图: H:\GIT_OPEN\AutoTest_UI\output\test_screenshot\异常截图20211221230530.png
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: "admin"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误: 
+[ERROR] 正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017719619B00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/0ff0b32558d00980b64af76e73132b42
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 		耗时: 7482ms/15000ms -> 共 0 个元素。
+[INFO] 截图: H:\GIT_OPEN\AutoTest_UI\output\test_screenshot\异常截图20211221231855.png
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))': /session/1051b1a61f357541cd3dc8912a8eab89/screenshot
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F190C0358>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1051b1a61f357541cd3dc8912a8eab89/screenshot
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F190C0550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1051b1a61f357541cd3dc8912a8eab89/screenshot
+[ERROR] 截图: H:\GIT_OPEN\AutoTest_UI\output\test_screenshot\异常截图20211221231855.png --> 失败: HTTPConnectionPool(host='localhost', port=3336): Max retries exceeded with url: /session/1051b1a61f357541cd3dc8912a8eab89/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F190C0748>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F190845F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1051b1a61f357541cd3dc8912a8eab89/elements
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F19084780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1051b1a61f357541cd3dc8912a8eab89/elements
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F19084CC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/1051b1a61f357541cd3dc8912a8eab89/elements
+[ERROR] 	耗时: 16029ms/15000ms -> 共 0 个元素。
+[ERROR] 	HTTPConnectionPool(host='localhost', port=3336): Max retries exceeded with url: /session/1051b1a61f357541cd3dc8912a8eab89/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022F190843C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 打开web浏览器。
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: ""
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: ""
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin2134"
+[INFO] 		清空文本框
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		输入内容: "admin123"
+[INFO] 		清空文本框
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 		耗时: 5354ms/15000ms -> 共 0 个元素。
+[INFO] 截图: H:\GIT_OPEN\AutoTest_UI\output\test_screenshot\异常截图20211221232837.png
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))': /session/b98cdd2874ddc8af23d659e6cf57e3c4/screenshot
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 		耗时: 520ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误: 
+[ERROR] 正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 15ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 13ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 1111111111111
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 		耗时: 519ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误: 
+[ERROR] 正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214942E0668>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ebe7db96e016a809d6bab5bf57004ba7
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214942E0828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ebe7db96e016a809d6bab5bf57004ba7
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000214942E0780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ebe7db96e016a809d6bab5bf57004ba7
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.atp.cool
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入登录名称', 'xpath', '//*[contains(text(), "请输入登录名称")]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: ""
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('提示语 - 请输入密码', 'xpath', '//*[contains(text(), "请输入登录密码")]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin2134"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('警告语 - 登录失败', 'xpath', '//*[contains(text(), "无法使用提供的认证信息登录")]')
+[INFO] 		耗时: 520ms/15000ms -> 共 1 个元素。
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例开始   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] 定位元素: ('按钮 - 重置用户信息', 'xpath', '//*[@id="app"]/div[1]/div/form/div[3]/div/button[2]/span')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('输入框 - 用户名', 'xpath', '//*[@id="app"]/div[1]/div/form/div[1]/div/div[1]/input')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin"
+[INFO] 定位元素: ('输入框 - 密码', 'xpath', '//*[@id="app"]/div[1]/div/form/div[2]/div/div[1]/input')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 		清空文本框
+[INFO] 		输入内容: "admin123-+657"
+[INFO] 定位元素: ('按钮 - 登录', 'class name', 'el-button--primary')
+[INFO] 		耗时: 5ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[ERROR] locator格式错误: 
+[ERROR] 正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+[INFO] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   用例结束   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[INFO] driver --> 退出

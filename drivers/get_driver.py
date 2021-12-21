@@ -14,12 +14,14 @@ def get_h5_driver():
     warnings.simplefilter("ignore", ResourceWarning)
     log.info('打开H5浏览器。')
     driver = webdriver.Chrome(options=chrome_options)
+    driver = check_webdriver_to_undefined(driver)
     return driver
 
 
 def get_web_driver():
     log.info('打开web浏览器。')
     driver = webdriver.Chrome()
+    driver = check_webdriver_to_undefined(driver)
     driver.maximize_window()
     return driver
 
@@ -38,3 +40,16 @@ def get_app_driver(appium_port, desired_caps):
     driver = app_driver.Remote(command_executor='http://127.0.0.1:{}/wd/hub'.format(appium_port),
                                desired_capabilities=desired_caps)
     return driver
+
+
+def check_webdriver_to_undefined(driver):
+    """
+    去掉 selenium 反爬检测
+    :param driver: driver
+    :return: driver
+    """
+    driver.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {
+        'source': 'Object.defineProperty(navigator, "webdriver", {get: () => undefined})'
+    })
+    return driver
+
