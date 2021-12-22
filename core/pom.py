@@ -107,30 +107,39 @@ class UIBasePages:
         :param error_shot: 是否需要定位失败的截图（0: 不需要, 1: 需要）
         :return:
         """
+        if isinstance(locator, list):
+            locator = tuple(locator)
+
         if not isinstance(locator, tuple):
             log.error(f'locator格式错误: {locator}')
             log.error(f'正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)')
             assert False
 
-        # (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...))
-        if len(locator) == 4 and isinstance(locator[-1], tuple):
-            name, by, element, element_args = locator
-        # (元素名字, 定位方式, 元素值, 要取的索引)
-        elif len(locator) == 4 and isinstance(locator[-1], int):
-            name, by, element, ele_index = locator
-            element_args = ''
-            self._ele_index = ele_index
-        # (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
-        elif len(locator) == 5 and isinstance(locator[-2], tuple) and isinstance(locator[-1], int):
-            name, by, element, element_args, ele_index = locator
-            self._ele_index = ele_index
-        # (元素名字, 定位方式, 元素值, 要取的索引, (元素值参数1, 元素值参数2, ...))
-        elif len(locator) == 5 and isinstance(locator[-2], int) and isinstance(locator[-1], tuple):
-            name, by, element, ele_index, element_args = locator
-            self._ele_index = ele_index
-        else:
-            name, by, element = locator
-            element_args = ''
+        try:
+            # (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...))
+            if len(locator) == 4 and isinstance(locator[-1], tuple):
+                name, by, element, element_args = locator
+            # (元素名字, 定位方式, 元素值, 要取的索引)
+            elif len(locator) == 4 and isinstance(locator[-1], int):
+                name, by, element, ele_index = locator
+                element_args = ''
+                self._ele_index = ele_index
+            # (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)
+            elif len(locator) == 5 and isinstance(locator[-2], tuple) and isinstance(locator[-1], int):
+                name, by, element, element_args, ele_index = locator
+                self._ele_index = ele_index
+            # (元素名字, 定位方式, 元素值, 要取的索引, (元素值参数1, 元素值参数2, ...))
+            elif len(locator) == 5 and isinstance(locator[-2], int) and isinstance(locator[-1], tuple):
+                name, by, element, ele_index, element_args = locator
+                self._ele_index = ele_index
+            else:
+                name, by, element = locator
+                element_args = ''
+        except ValueError as e:
+            log.error(f'locator格式错误: {locator}')
+            log.error(f'正确案例: (元素名字, 定位方式, 元素值, (元素值参数1, 元素值参数2, ...), 要取的索引)')
+            log.error(f'{e}')
+            assert False
 
         element = element.format(*element_args)
         by = by.lower()
