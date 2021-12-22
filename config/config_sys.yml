@@ -6,3 +6,17 @@ logger:
   all_format: "[%(levelname)s] %(message)s"
   date_format: "%Y-%m-%d %H:%M:%S"
   log_file:
+driver_path:
+  win:
+    chrome: chromedriver.exe
+    firefox:
+    ie:
+  linux:
+    chrome:
+    firefox:
+    ie:
+  mac:
+    sarfari:
+    chrome:
+    firefox:
+    ie:
