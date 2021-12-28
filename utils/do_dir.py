@@ -78,6 +78,34 @@ def copy_to_dir(source_dir, target_dir):
         raise e
 
 
+def get_loop_filenames(dirname: str, loop_level: int = None) -> list:
+    """递归获取某路径下所有文件名称
+    :param dirname: 真实存在的路径
+    :param loop_level: 递归多少层
+    :return:
+    """
+
+    filenames = list()
+    # 绝对路径
+    if not os.path.isabs(dirname):
+        dirname = os.path.abspath(dirname)
+
+    for (pathname, dirs, files) in os.walk(dirname):
+        if files:  # 文件,则添加进列表
+            for f in files:
+                filenames.append(f)
+        if dirs:  # 目录,递归获取
+            for dir_ in dirs:
+                loop_level -= 1
+                if loop_level is not None and loop_level >= 0:
+                    get_loop_filenames(path_join(pathname, dir_), loop_level - 1)
+                elif loop_level is not None and loop_level < 0:
+                    return filenames
+                else:
+                    get_loop_filenames(path_join(pathname, dir_))
+    return filenames
+
+
 def get_filenames(dirname: str) -> list:
     """获取某路径下所有文件名称
     :param dirname: 真实存在的路径
@@ -92,15 +120,13 @@ def get_filenames(dirname: str) -> list:
         if files:  # 文件,则添加进列表
             for f in files:
                 filenames.append(f)
-        if dirs:  # 目录,递归获取
-            for dir_ in dirs:
-                get_filenames(path_join(pathname, dir_))
     return filenames
 
 
-def get_filepaths(dirname: str) -> list:
+def get_loop_filepaths(dirname: str, loop_level: int = None) -> list:
     """获取某路径下所有文件
     :param dirname: 真实存在的路径
+    :param loop_level: 要递归的层数
     :return:
     """
     filepaths = list()
@@ -112,10 +138,52 @@ def get_filepaths(dirname: str) -> list:
         if files:  # 文件,则添加进列表
             for f in files:
                 filepaths.append(path_join(pathname, f))
-        if dirs:  # 目录,递归获取
-            for dir_ in dirs:
-                get_filenames(path_join(pathname, dir_))
+        for dir_ in dirs:  # 目录,递归获取
+            loop_level -= 1
+            if loop_level is not None and loop_level >= 0:
+                get_loop_filepaths(path_join(pathname, dir_), loop_level - 1)
+            elif loop_level is not None and loop_level < 0:
+                return filepaths
+            else:
+                get_loop_filepaths(path_join(pathname, dir_))
     return filepaths
+
+
+def loop_search_dir(dirname: str, search_keyword: str, loop_level: int = None) -> list:
+    """递归搜索文件夹
+    :param dirname: 真实存在的路径
+    :param loop_level: 要递归的层数
+    :param search_keyword: 搜索关键字
+    :return:
+    """
+
+    dir_list = list()
+
+    # 绝对路径
+    if not os.path.isabs(dirname):
+        dirname = os.path.abspath(dirname)
+
+    for (pathname, dirs, files) in os.walk(dirname):
+        # 限定层级
+        if loop_level is not None:
+            loop_level -= 1
+            if dirs and loop_level >= 0:  # 没到最后一层
+                if search_keyword in dirs:
+                    dir_list.append(path_join(pathname, search_keyword))
+                else:
+                    for dir_ in dirs:
+                        loop_search_dir(path_join(pathname, dir_), search_keyword, loop_level)
+            else:  # 到了最后一层
+                return dir_list
+
+        # 没限定层级
+        else:
+            for dir_ in dirs:
+                if search_keyword in dir_:
+                    dir_list.append(path_join(pathname, search_keyword))
+                loop_search_dir(path_join(pathname, dir_), search_keyword, loop_level)
+
+    return dir_list
 
 
 def makedirs(dirname: str):

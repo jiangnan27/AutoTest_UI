@@ -1,0 +1,190 @@
+[INFO] 检查 adb、aapt
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] 检查 adb、aapt
+[INFO] 检查 adb、aapt
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] 检查 adb、aapt
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] 检查 adb、aapt
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 13ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 60秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0A68C89B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/303f21f61da09720cfdc471beabe2d94
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0A68C8AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/303f21f61da09720cfdc471beabe2d94
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D0A68C8B00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/303f21f61da09720cfdc471beabe2d94
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 10秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DEE3B89B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dae4fe08676c5b1ed7bfb2b31ac520bd
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DEE3B8A58>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dae4fe08676c5b1ed7bfb2b31ac520bd
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022DEE3B8B00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dae4fe08676c5b1ed7bfb2b31ac520bd
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] APP:  -> 2.01.03
+[INFO] 卸载 APP: com.diyiyin.online53
+[INFO] adb -s 127.0.0.1:62001 uninstall C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] 删除本地 apk 包: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 10ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F9C31489B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b90dd8e0d3eca410942894c1a9161285
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F9C3148A58>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b90dd8e0d3eca410942894c1a9161285
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F9C3148B38>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b90dd8e0d3eca410942894c1a9161285
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] APP:  -> 2.01.03
+[INFO] 卸载 APP: com.diyiyin.online53
+[INFO] adb -s 127.0.0.1:62001 uninstall com.diyiyin.online53
+[INFO] 删除本地 apk 包: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC2E7B7A20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b2dfe9e46e970e780a4f1a5b2c258eae
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC2E7B7AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b2dfe9e46e970e780a4f1a5b2c258eae
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DC2E7B7BA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/b2dfe9e46e970e780a4f1a5b2c258eae
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] APP:  -> 2.01.03
+[INFO] 卸载 APP: com.diyiyin.online53
+[INFO] adb -s 127.0.0.1:62001 uninstall com.diyiyin.online53
+[INFO] 删除本地 apk 包: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000265EAAF7A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d325bbaa6b7864f00a0ebb4ee704317e
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000265EAAF7B38>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d325bbaa6b7864f00a0ebb4ee704317e
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000265EAAF7C18>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/d325bbaa6b7864f00a0ebb4ee704317e
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] APP:  -> 2.01.03
+[INFO] 检查 是否安装: com.diyiyin.online53
+[INFO] adb -s 127.0.0.1:62001 shell pm list package -3
+[INFO] 安装 apk: 
+[INFO] adb -s 127.0.0.1:62001 install C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] Performing Streamed Install
+Success
+
+[INFO] 获取手机信息: 127.0.0.1:62001
+[INFO] 删除本地 apk 包: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
