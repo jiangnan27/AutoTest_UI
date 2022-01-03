@@ -207,11 +207,5 @@ def init_apk_env(test_app_name):
         log.info(f"删除本地 apk 包: {new_apk_path}")
         os.remove(new_apk_path)
 
-# check_adb_env()
-# print(get_apk_path("53banxue"))
-# print(get_apk_info(get_apk_path("53banxue")))
-# print(get_installed_app_info(get_apk_info(get_apk_path("53banxue"))))
-# print(install_apk("53banxue"))
 
-
-init_apk_env("53banxue")
+# init_apk_env("hh")
