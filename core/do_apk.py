@@ -1,6 +1,8 @@
 import getpass
 import re
 import subprocess
+import time
+
 from config.PATH import os, APP_YAML
 from config.get_config_data import get_app_yml_data
 from utils.do_dir import get_filenames, loop_search_dir
@@ -31,14 +33,16 @@ def check_adb_env(phone_address):
 
 
 # 1. 打开web浏览器 -> 下载APP
-def download_apk(pgy_url):
+def download_apk(pgy_url, test_app_name):
     log.info(f"下载APP: {pgy_url}")
     driver = get_web_driver()
     web = UIBasePages(driver)
     web.open_url(pgy_url)
     web.click_ele(("按钮 - 安装", 'xpath', '//*[@id="down_load"]'))
     web.sleep(20)
+    apk_path = get_apk_path(test_app_name)
     web.quit_driver()
+    return apk_path
 
 
 # 2. 获取 apk 路径
@@ -49,23 +53,30 @@ def get_apk_path(test_app_name):
     # username = loop_search_dir(r'C:\Users', 'Downloads', 2)[0]
     apk_base_path = loop_search_dir(r'C:\Users', 'Downloads', 2)[0]
 
-    apk_name = None
+    apk_name = ''
     keywords = get_app_yml_data()[test_app_name]['apk_info']['apk_name_keywords']
     keyword_all_in = False  # 是否全都包含有关键字
-    for file in get_filenames(apk_base_path):
-        for keyword in keywords:
-            if keyword in file:
-                keyword_all_in = True
-            else:
-                keyword_all_in = False
-        if keyword_all_in is True:
-            apk_name = file
-            break
-    if keyword_all_in is False:
-        raise Exception(f'没有您想要的APP: {keywords}')
-    else:
-        apk_path = os.path.join(apk_base_path, apk_name)
-        return apk_path
+
+    wait_time = 120  # 等待时间
+    real_waited = 0  # 实际等待时间
+
+    while real_waited <= wait_time:
+        for file in get_filenames(apk_base_path):
+            for keyword in keywords:
+                if keyword in file and 'apk' in file:
+                    keyword_all_in = True
+                else:
+                    keyword_all_in = False
+            if keyword_all_in is True:
+                apk_name = file
+                break
+        if keyword_all_in is False or apk_name.split('.')[-1] != 'apk':
+            log.info(f'只找到APP: {apk_name}, 也许正在下载，等待20s')
+            time.sleep(20)
+            real_waited += 20
+        else:
+            apk_path = os.path.join(apk_base_path, apk_name)
+            return apk_path
 
 
 # 2. 获取下载APP的信息
@@ -157,15 +168,10 @@ def init_apk_env(test_app_name):
     # 1. 检查 adb 环境
     check_adb_env(phone_address)
 
-    # 2. 下载 apk
-    download_apk(pgy_url)
-
-    new_apk_path = ''
+    # 2. 下载 apk, 3. 获取下载 app 的 路径
+    new_apk_path = download_apk(pgy_url, test_app_name)
 
     try:
-        # 3. 获取下载 app 的 路径
-        new_apk_path = get_apk_path(test_app_name)
-
         # 4. 获取 新 apk 包的信息
         new_apk_info = get_apk_info(new_apk_path)
 
@@ -209,4 +215,3 @@ def init_apk_env(test_app_name):
 
 
 init_apk_env("53banxue")
-

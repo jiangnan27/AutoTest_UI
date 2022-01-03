@@ -1,0 +1,502 @@
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 13ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002586953AB00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04af01c57a1c59d0e943fe541af9a672
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002586953ACF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04af01c57a1c59d0e943fe541af9a672
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002586953AC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04af01c57a1c59d0e943fe541af9a672
+[INFO] 获取 新 apk 的信息: None
+[INFO] 删除本地 apk 包: None
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E53675EE80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E5367A0E48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E5367A0F98>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] appium_port：4723
+[INFO] desired_capabilities：{
+  "automationName": "UIAutomator2",
+  "platformName": "Android",
+  "platformVersion": "7.1.2",
+  "deviceName": "Android Emulator",
+  "noReset": true,
+  "appPackage": "com.ss.android.ugc.aweme",
+  "appActivity": "com.ss.android.ugc.aweme.splash.SplashActivity"
+}
+[INFO] ========================================  设备初始化信息  ========================================
+[INFO] 打开APP。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA0C646828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3a19de424e66458938d568c8bb306572
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA0C6466A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3a19de424e66458938d568c8bb306572
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA0C646470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3a19de424e66458938d568c8bb306572
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 删除本地 apk 包: 
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000253B992AE10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/7022ccbd8e44599044f77cca95c59bff
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 获取 新 apk 的信息: None
+[INFO] 删除本地 apk 包: None
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] driver --> 退出
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000271084272B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4dbb52ff61afc133343720e908341566
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002710841FB38>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4dbb52ff61afc133343720e908341566
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002710841FA90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/4dbb52ff61afc133343720e908341566
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 6ms/15000ms -> 共 1 个元素。
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CC0048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CC0390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDD908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDDE10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDDEF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/screenshot
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92D96048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/rect
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92D962E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/rect
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92B39E80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/rect
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CC0F60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/name
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CC0898>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/name
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CC0358>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/name
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDD828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/text
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDDD30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/text
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CDDEB8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/element/cabed75a-d044-4ba1-9402-f365ed3f4c41/text
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CD7828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/context
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CD7C88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/context
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CD7BE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/context
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CD7860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/context
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013A92CD7D68>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/c73568689a1234a0d74889927414c1a3/context
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 13ms/15000ms -> 共 1 个元素。
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 12ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 9ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 7ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 8ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] 只找到APP: , 也许正在下载，等待20s
+[INFO] 删除本地 apk 包: 
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002146A98FBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/41c14143e977d8c3707c8cde5aa51c1f
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] driver --> 退出
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] 只找到APP: 53伴学测试版_2.01.03.apk.crdownload, 也许正在下载，等待20s
+[INFO] 只找到APP: 53伴学测试版_2.01.03.apk.crdownload, 也许正在下载，等待20s
+[INFO] 删除本地 apk 包: 
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002495710FBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/664becbb701899356a2128359c2fc2cd
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002495710FD68>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/664becbb701899356a2128359c2fc2cd
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002495710FF28>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/664becbb701899356a2128359c2fc2cd
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] 只找到APP: 53伴学测试版_2.01.03.apk.crdownload, 也许正在下载，等待20s
+[INFO] 只找到APP: 53伴学测试版_2.01.03.apk.crdownload, 也许正在下载，等待20s
+[INFO] driver --> 退出
+[INFO] 获取 新 apk 的信息: 
+[INFO] 删除本地 apk 包: 
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026DEAAB92B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2b74026d9165454c6dc390e9cf175148
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026DEAAB92E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2b74026d9165454c6dc390e9cf175148
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026DEAAB9278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/2b74026d9165454c6dc390e9cf175148
+[INFO] 安装APP: 53banxue
+[INFO] 检查 adb、aapt: 127.0.0.1:62001
+[INFO] Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\soft\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe
+
+[INFO] Android Asset Packaging Tool, v0.2
+
+[INFO] List of devices attached
+127.0.0.1:62001	device
+
+
+[INFO] 下载APP: http://www.pgyer.com/HnXQ
+[INFO] driver路径: H:\GIT_OPEN\AutoTest_UI\drivers\win\chromedriver.exe
+[INFO] 打开web浏览器。
+[INFO] 打开网址: http://www.pgyer.com/HnXQ
+[INFO] 定位元素: ('按钮 - 安装', 'xpath', '//*[@id="down_load"]')
+[INFO] 		耗时: 11ms/15000ms -> 共 1 个元素。
+[INFO] 		点击元素
+[INFO] 强制等待: 20秒
+[INFO] 获取 apk 包路径: 53banxue
+[INFO] driver --> 退出
+[INFO] 获取 新 apk 的信息: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] APP: 2.01.03 -> 2.01.03
+[INFO] 包版本相同，退出安装
+[INFO] 删除本地 apk 包: C:\Users\23983\Downloads\53伴学测试版_2.01.03.apk
+[INFO] driver --> 退出
+[WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A9D240C18>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6d8f43ad1bc264b90b43f5ddbaf56ba6
+[WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A9D2882E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6d8f43ad1bc264b90b43f5ddbaf56ba6
+[WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026A9D288390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6d8f43ad1bc264b90b43f5ddbaf56ba6

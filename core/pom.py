@@ -190,24 +190,29 @@ class UIBasePages:
                 if 'span' in str(locator):  # 遇到 span 标签，先睡眠 0.5s
                     time.sleep(0.5)
 
-                if isinstance(locator, tuple):  # 需要定位的
+                if isinstance(locator, (tuple, list)):  # 需要定位的
                     self.find_ele(locator)
                 else:  # 不需要定位的
                     self._ele = list()
                     self._ele.append(locator)
 
                 for ele_one in self._ele:
-                    # 滚动屏幕至元素可见
-                    # 注: 不支持火狐浏览器。
-                    self.driver.execute_script('arguments[0].scrollIntoView({"block":"center"});', ele_one)
+                    # 判断是否是 APP driver
+                    try:
+                        if self.driver.mobile.context and self.driver.mobile.context == 'NATIVE_APP':
+                            pass
+                    except:
+                        # 滚动屏幕至元素可见
+                        self.driver.execute_script('arguments[0].scrollIntoView({"block":"center"});', ele_one)
 
                     log.info('\t\t点击元素')
                     if 'svg' in str(locator) or click_model:
                         time.sleep(0.5)
                         self.chains.click(ele_one).perform()
+                        return
                     else:
                         ele_one.click()
-                return
+                        return
             except WebDriverException:
                 time.sleep(0.5)
                 continue
@@ -218,7 +223,7 @@ class UIBasePages:
         # 这个action要独立在这里，不要定义成  类属性，不然会出错的。
         # 这个action要独立在这里，不要定义成  类属性，不然会出错的。
         try:
-            if isinstance(locator, tuple):  # 需要定位的
+            if isinstance(locator, (tuple, list)):  # 需要定位的
                 self.find_ele(locator)
             else:  # 不需要定位的
                 self._ele = list()
