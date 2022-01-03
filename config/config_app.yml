@@ -18,11 +18,11 @@ TEST_APP_DES:
         noReset: true
         appPackage: com.cisdi.building.test
         appActivity: com.cisdi.building.activity.SplashActivity
-53banxue:
+hh:
     apk_info:
-        pgy_url: http://www.pgyer.com/HnXQ
+        pgy_url: http://www.pgyer.com
         apk_name_keywords:
-        - 53伴学
+        - hh
         - 测试
         phone_address: 127.0.0.1:62001
     appium_port: 4723
